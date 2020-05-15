@@ -16,7 +16,21 @@ class ViewController: UIViewController {
         
         //testFactoryMethod()
         //testAbstractFactory()
-        testBuilder()
+        //testBuilder()
+        testPrototype()
+    }
+    
+    func testPrototype(){
+        let original = VisaCard(cardNumber: 1111, cardType: "Credit")
+        guard let copy = original.copy() as? VisaCard else{
+            return
+        }
+        print(original.cardName)
+        print(copy.cardName)
+        
+        print(original.cardNumber)
+        print(copy.cardNumber)
+
     }
     
     func testBuilder(){
