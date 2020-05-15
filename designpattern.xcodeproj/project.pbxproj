@@ -18,6 +18,12 @@
 		F358371D246DCA2200F136DC /* CardPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F358371C246DCA2200F136DC /* CardPayment.swift */; };
 		F358371F246DCA6900F136DC /* TypePayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F358371E246DCA6900F136DC /* TypePayment.swift */; };
 		F3583721246DCAA800F136DC /* PaymentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3583720246DCAA800F136DC /* PaymentFactory.swift */; };
+		F3583739246EAFDD00F136DC /* PaymentAF.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3583738246EAFDD00F136DC /* PaymentAF.swift */; };
+		F358373B246EB02300F136DC /* CardPaymentAF.swift in Sources */ = {isa = PBXBuildFile; fileRef = F358373A246EB02300F136DC /* CardPaymentAF.swift */; };
+		F358373D246EB05A00F136DC /* GooglePaymentAF.swift in Sources */ = {isa = PBXBuildFile; fileRef = F358373C246EB05A00F136DC /* GooglePaymentAF.swift */; };
+		F358373F246EB09B00F136DC /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = F358373E246EB09B00F136DC /* Method.swift */; };
+		F3583741246EB0CB00F136DC /* MontlyMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3583740246EB0CB00F136DC /* MontlyMethod.swift */; };
+		F3583743246EB11600F136DC /* PaymentInAdvanceMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3583742246EB11600F136DC /* PaymentInAdvanceMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +40,12 @@
 		F358371C246DCA2200F136DC /* CardPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPayment.swift; sourceTree = "<group>"; };
 		F358371E246DCA6900F136DC /* TypePayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypePayment.swift; sourceTree = "<group>"; };
 		F3583720246DCAA800F136DC /* PaymentFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentFactory.swift; sourceTree = "<group>"; };
+		F3583738246EAFDD00F136DC /* PaymentAF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAF.swift; sourceTree = "<group>"; };
+		F358373A246EB02300F136DC /* CardPaymentAF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPaymentAF.swift; sourceTree = "<group>"; };
+		F358373C246EB05A00F136DC /* GooglePaymentAF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePaymentAF.swift; sourceTree = "<group>"; };
+		F358373E246EB09B00F136DC /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		F3583740246EB0CB00F136DC /* MontlyMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontlyMethod.swift; sourceTree = "<group>"; };
+		F3583742246EB11600F136DC /* PaymentInAdvanceMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInAdvanceMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,7 @@
 		F3583716246DC94F00F136DC /* creational */ = {
 			isa = PBXGroup;
 			children = (
+				F3583737246EAFCA00F136DC /* abstraftfactory */,
 				F3583717246DC95900F136DC /* factorymethod */,
 			);
 			path = creational;
@@ -96,6 +109,19 @@
 				F3583720246DCAA800F136DC /* PaymentFactory.swift */,
 			);
 			path = factorymethod;
+			sourceTree = "<group>";
+		};
+		F3583737246EAFCA00F136DC /* abstraftfactory */ = {
+			isa = PBXGroup;
+			children = (
+				F3583738246EAFDD00F136DC /* PaymentAF.swift */,
+				F358373A246EB02300F136DC /* CardPaymentAF.swift */,
+				F358373C246EB05A00F136DC /* GooglePaymentAF.swift */,
+				F358373E246EB09B00F136DC /* Method.swift */,
+				F3583740246EB0CB00F136DC /* MontlyMethod.swift */,
+				F3583742246EB11600F136DC /* PaymentInAdvanceMethod.swift */,
+			);
+			path = abstraftfactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,11 +196,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3583707246DC94400F136DC /* ViewController.swift in Sources */,
+				F3583739246EAFDD00F136DC /* PaymentAF.swift in Sources */,
 				F3583703246DC94400F136DC /* AppDelegate.swift in Sources */,
+				F3583743246EB11600F136DC /* PaymentInAdvanceMethod.swift in Sources */,
 				F358371F246DCA6900F136DC /* TypePayment.swift in Sources */,
+				F358373D246EB05A00F136DC /* GooglePaymentAF.swift in Sources */,
 				F358371D246DCA2200F136DC /* CardPayment.swift in Sources */,
 				F358371B246DC9E300F136DC /* GooglePayment.swift in Sources */,
 				F3583721246DCAA800F136DC /* PaymentFactory.swift in Sources */,
+				F358373F246EB09B00F136DC /* Method.swift in Sources */,
+				F358373B246EB02300F136DC /* CardPaymentAF.swift in Sources */,
+				F3583741246EB0CB00F136DC /* MontlyMethod.swift in Sources */,
 				F3583719246DC9BC00F136DC /* Payment.swift in Sources */,
 				F3583705246DC94400F136DC /* SceneDelegate.swift in Sources */,
 			);
