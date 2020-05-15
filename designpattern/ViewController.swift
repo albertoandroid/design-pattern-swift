@@ -15,8 +15,20 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         //testFactoryMethod()
-        testAbstractFactory()
+        //testAbstractFactory()
+        testBuilder()
     }
+    
+    func testBuilder(){
+        var card: Card = Card.CardBuilder()
+        .cardType(cardType: "VISA")
+        .number(number: "1111 2222 3333 4444")
+        .expires(expires: 2030)
+        .build()
+        card.showCard()
+    }
+    
+
     
     func testAbstractFactory(){
         PaymentMethodClient.codigoCliente(factory: MontlyGoogleFactory())
