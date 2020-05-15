@@ -17,7 +17,19 @@ class ViewController: UIViewController {
         //testFactoryMethod()
         //testAbstractFactory()
         //testBuilder()
-        testPrototype()
+        //testPrototype()
+        testSinglenton()
+    }
+    
+    func testSinglenton(){
+        let instancia1 = CardSinglenton.shared
+        let instancia2 = CardSinglenton.shared
+        
+        if(instancia2 === instancia1){
+            print("La instancia1 es la misma que la 2")
+        }
+        
+        instancia1.doSomething()
     }
     
     func testPrototype(){

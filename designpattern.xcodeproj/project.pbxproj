@@ -31,6 +31,7 @@
 		F3A9D72B246EECE800515150 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9D72A246EECE800515150 /* Card.swift */; };
 		F3A9D72E246EF76D00515150 /* PrototypeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9D72D246EF76D00515150 /* PrototypeCard.swift */; };
 		F3A9D730246EF83100515150 /* VisaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9D72F246EF83100515150 /* VisaCard.swift */; };
+		F3A9D736246F0B3D00515150 /* CardSinglenton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9D735246F0B3D00515150 /* CardSinglenton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		F3A9D72A246EECE800515150 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		F3A9D72D246EF76D00515150 /* PrototypeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeCard.swift; sourceTree = "<group>"; };
 		F3A9D72F246EF83100515150 /* VisaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCard.swift; sourceTree = "<group>"; };
+		F3A9D735246F0B3D00515150 /* CardSinglenton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSinglenton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		F3583716246DC94F00F136DC /* creational */ = {
 			isa = PBXGroup;
 			children = (
+				F3A9D734246F0B2900515150 /* singlenton */,
 				F3A9D72C246EF75900515150 /* prototype */,
 				F3A9D729246EECD700515150 /* builder */,
 				F3583737246EAFCA00F136DC /* abstraftfactory */,
@@ -159,6 +162,14 @@
 				F3A9D72F246EF83100515150 /* VisaCard.swift */,
 			);
 			path = prototype;
+			sourceTree = "<group>";
+		};
+		F3A9D734246F0B2900515150 /* singlenton */ = {
+			isa = PBXGroup;
+			children = (
+				F3A9D735246F0B3D00515150 /* CardSinglenton.swift */,
+			);
+			path = singlenton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +247,7 @@
 				F3583707246DC94400F136DC /* ViewController.swift in Sources */,
 				F3A9D730246EF83100515150 /* VisaCard.swift in Sources */,
 				F3A9D72B246EECE800515150 /* Card.swift in Sources */,
+				F3A9D736246F0B3D00515150 /* CardSinglenton.swift in Sources */,
 				F3583739246EAFDD00F136DC /* PaymentAF.swift in Sources */,
 				F3583703246DC94400F136DC /* AppDelegate.swift in Sources */,
 				F3583743246EB11600F136DC /* PaymentInAdvanceMethod.swift in Sources */,
