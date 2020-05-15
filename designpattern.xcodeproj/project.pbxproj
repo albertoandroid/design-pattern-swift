@@ -24,6 +24,10 @@
 		F358373F246EB09B00F136DC /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = F358373E246EB09B00F136DC /* Method.swift */; };
 		F3583741246EB0CB00F136DC /* MontlyMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3583740246EB0CB00F136DC /* MontlyMethod.swift */; };
 		F3583743246EB11600F136DC /* PaymentInAdvanceMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3583742246EB11600F136DC /* PaymentInAdvanceMethod.swift */; };
+		F3583745246EB20E00F136DC /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3583744246EB20E00F136DC /* AbstractFactory.swift */; };
+		F3583747246EB25800F136DC /* PaymentInAdvanceCardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3583746246EB25800F136DC /* PaymentInAdvanceCardFactory.swift */; };
+		F3583749246EB2C100F136DC /* MontlyGoogleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3583748246EB2C100F136DC /* MontlyGoogleFactory.swift */; };
+		F358374B246EB31100F136DC /* PaymentMethodClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F358374A246EB31100F136DC /* PaymentMethodClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +50,10 @@
 		F358373E246EB09B00F136DC /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
 		F3583740246EB0CB00F136DC /* MontlyMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontlyMethod.swift; sourceTree = "<group>"; };
 		F3583742246EB11600F136DC /* PaymentInAdvanceMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInAdvanceMethod.swift; sourceTree = "<group>"; };
+		F3583744246EB20E00F136DC /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		F3583746246EB25800F136DC /* PaymentInAdvanceCardFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInAdvanceCardFactory.swift; sourceTree = "<group>"; };
+		F3583748246EB2C100F136DC /* MontlyGoogleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontlyGoogleFactory.swift; sourceTree = "<group>"; };
+		F358374A246EB31100F136DC /* PaymentMethodClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,10 @@
 				F358373E246EB09B00F136DC /* Method.swift */,
 				F3583740246EB0CB00F136DC /* MontlyMethod.swift */,
 				F3583742246EB11600F136DC /* PaymentInAdvanceMethod.swift */,
+				F3583744246EB20E00F136DC /* AbstractFactory.swift */,
+				F3583746246EB25800F136DC /* PaymentInAdvanceCardFactory.swift */,
+				F3583748246EB2C100F136DC /* MontlyGoogleFactory.swift */,
+				F358374A246EB31100F136DC /* PaymentMethodClient.swift */,
 			);
 			path = abstraftfactory;
 			sourceTree = "<group>";
@@ -195,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F358374B246EB31100F136DC /* PaymentMethodClient.swift in Sources */,
 				F3583707246DC94400F136DC /* ViewController.swift in Sources */,
 				F3583739246EAFDD00F136DC /* PaymentAF.swift in Sources */,
 				F3583703246DC94400F136DC /* AppDelegate.swift in Sources */,
@@ -207,8 +220,11 @@
 				F358373F246EB09B00F136DC /* Method.swift in Sources */,
 				F358373B246EB02300F136DC /* CardPaymentAF.swift in Sources */,
 				F3583741246EB0CB00F136DC /* MontlyMethod.swift in Sources */,
+				F3583745246EB20E00F136DC /* AbstractFactory.swift in Sources */,
+				F3583749246EB2C100F136DC /* MontlyGoogleFactory.swift in Sources */,
 				F3583719246DC9BC00F136DC /* Payment.swift in Sources */,
 				F3583705246DC94400F136DC /* SceneDelegate.swift in Sources */,
+				F3583747246EB25800F136DC /* PaymentInAdvanceCardFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
