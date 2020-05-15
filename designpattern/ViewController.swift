@@ -14,7 +14,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        testFactoryMethod()
+        //testFactoryMethod()
+        testAbstractFactory()
+    }
+    
+    func testAbstractFactory(){
+        PaymentMethodClient.codigoCliente(factory: MontlyGoogleFactory())
+        
+        PaymentMethodClient.codigoCliente(factory: PaymentInAdvanceCardFactory())
     }
     
     func testFactoryMethod(){
