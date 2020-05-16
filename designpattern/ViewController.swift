@@ -18,7 +18,13 @@ class ViewController: UIViewController {
         //testAbstractFactory()
         //testBuilder()
         //testPrototype()
-        testSinglenton()
+        //testSinglenton()
+        testChainOfResponsability()
+    }
+    
+    func testChainOfResponsability(){
+        let bank = BankHandler()
+        bank.creditCardRequest(totalLoan: 10000000)
     }
     
     func testSinglenton(){
