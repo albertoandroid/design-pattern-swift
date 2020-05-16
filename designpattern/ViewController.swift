@@ -19,7 +19,51 @@ class ViewController: UIViewController {
         //testBuilder()
         //testPrototype()
         //testSinglenton()
-        testChainOfResponsability()
+        //testChainOfResponsability()
+        //testCommand()
+        //testIntepreter()
+        testIterator()
+        
+        
+    }
+    
+    func testIterator(){
+        let misTarjetas = CreditCardsCollection()
+        misTarjetas.append(CreditCard(type: "Gold"))
+        misTarjetas.append(CreditCard(type: "Black"))
+        misTarjetas.append(CreditCard(type: "Platinium"))
+        for card in misTarjetas{
+            print(card.type)
+        }
+    }
+    
+    func testIntepreter(){
+        let cero = TerminalExpression(text: "0")
+        let uno = TerminalExpression(text: "1")
+        
+        let containsOneOrCero = OrExpression(expression1: cero, expression2: uno)
+        
+        print(containsOneOrCero.interpret(context: "cero"))
+        print(containsOneOrCero.interpret(context: "0"))
+        
+        let containsOneAndCero = AndExpression(expression1: cero, expression2: uno)
+        
+        print(containsOneAndCero.interpret(context: "cero, 0"))
+        print(containsOneAndCero.interpret(context: "0, 1"))
+        
+    }
+    
+    func testCommand(){
+        let creditCard = CreditCardReceiver()
+        
+        let invoker = CreditCardInvoker()
+        invoker.setCommand(command: CreditCardActivateCommand(creditCardReceiver: creditCard))
+        
+        invoker.run()
+        
+        invoker.setCommand(command: CreditCardDesactivateCommand(creditCardReceiver: creditCard))
+        
+        invoker.run()
     }
     
     func testChainOfResponsability(){
