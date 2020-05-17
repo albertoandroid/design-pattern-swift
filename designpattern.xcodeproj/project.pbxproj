@@ -45,6 +45,20 @@
 		F3A497B124705B84009D08DF /* ConcreteColleague1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A497B024705B84009D08DF /* ConcreteColleague1.swift */; };
 		F3A497B324705BFD009D08DF /* ConcreteColleague2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A497B224705BFD009D08DF /* ConcreteColleague2.swift */; };
 		F3A497B524705C2F009D08DF /* ConcreteMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A497B424705C2F009D08DF /* ConcreteMediator.swift */; };
+		F3A497C624715326009D08DF /* ArticleMemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A497C524715326009D08DF /* ArticleMemento.swift */; };
+		F3A497C82471535E009D08DF /* ArticleOriginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A497C72471535E009D08DF /* ArticleOriginator.swift */; };
+		F3A497CA247153EA009D08DF /* Carataker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A497C9247153EA009D08DF /* Carataker.swift */; };
+		F3A497E124717CCA009D08DF /* TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A497E024717CCA009D08DF /* TrafficLight.swift */; };
+		F3A497E324717CFF009D08DF /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A497E224717CFF009D08DF /* Observer.swift */; };
+		F3A497E524717D26009D08DF /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A497E424717D26009D08DF /* Subject.swift */; };
+		F3A497E724717D80009D08DF /* MessagePublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A497E624717D80009D08DF /* MessagePublisher.swift */; };
+		F3A497E924717E2D009D08DF /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A497E824717E2D009D08DF /* Car.swift */; };
+		F3A497EB24717E9F009D08DF /* Pedestrian.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A497EA24717E9F009D08DF /* Pedestrian.swift */; };
+		F3A497F92471A4E6009D08DF /* MobileAlertStateContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A497F82471A4E6009D08DF /* MobileAlertStateContext.swift */; };
+		F3A497FB2471A508009D08DF /* MobileAlertState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A497FA2471A508009D08DF /* MobileAlertState.swift */; };
+		F3A497FD2471A531009D08DF /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A497FC2471A531009D08DF /* Sound.swift */; };
+		F3A497FF2471A55E009D08DF /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A497FE2471A55E009D08DF /* Vibration.swift */; };
+		F3A498012471A57D009D08DF /* Silent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A498002471A57D009D08DF /* Silent.swift */; };
 		F3A9D72B246EECE800515150 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9D72A246EECE800515150 /* Card.swift */; };
 		F3A9D72E246EF76D00515150 /* PrototypeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9D72D246EF76D00515150 /* PrototypeCard.swift */; };
 		F3A9D730246EF83100515150 /* VisaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9D72F246EF83100515150 /* VisaCard.swift */; };
@@ -97,6 +111,20 @@
 		F3A497B024705B84009D08DF /* ConcreteColleague1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteColleague1.swift; sourceTree = "<group>"; };
 		F3A497B224705BFD009D08DF /* ConcreteColleague2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteColleague2.swift; sourceTree = "<group>"; };
 		F3A497B424705C2F009D08DF /* ConcreteMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteMediator.swift; sourceTree = "<group>"; };
+		F3A497C524715326009D08DF /* ArticleMemento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleMemento.swift; sourceTree = "<group>"; };
+		F3A497C72471535E009D08DF /* ArticleOriginator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleOriginator.swift; sourceTree = "<group>"; };
+		F3A497C9247153EA009D08DF /* Carataker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carataker.swift; sourceTree = "<group>"; };
+		F3A497E024717CCA009D08DF /* TrafficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLight.swift; sourceTree = "<group>"; };
+		F3A497E224717CFF009D08DF /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		F3A497E424717D26009D08DF /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		F3A497E624717D80009D08DF /* MessagePublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePublisher.swift; sourceTree = "<group>"; };
+		F3A497E824717E2D009D08DF /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		F3A497EA24717E9F009D08DF /* Pedestrian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedestrian.swift; sourceTree = "<group>"; };
+		F3A497F82471A4E6009D08DF /* MobileAlertStateContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAlertStateContext.swift; sourceTree = "<group>"; };
+		F3A497FA2471A508009D08DF /* MobileAlertState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAlertState.swift; sourceTree = "<group>"; };
+		F3A497FC2471A531009D08DF /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		F3A497FE2471A55E009D08DF /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
+		F3A498002471A57D009D08DF /* Silent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silent.swift; sourceTree = "<group>"; };
 		F3A9D72A246EECE800515150 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		F3A9D72D246EF76D00515150 /* PrototypeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeCard.swift; sourceTree = "<group>"; };
 		F3A9D72F246EF83100515150 /* VisaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCard.swift; sourceTree = "<group>"; };
@@ -237,6 +265,41 @@
 			path = mediator;
 			sourceTree = "<group>";
 		};
+		F3A497C424715305009D08DF /* memento */ = {
+			isa = PBXGroup;
+			children = (
+				F3A497C524715326009D08DF /* ArticleMemento.swift */,
+				F3A497C72471535E009D08DF /* ArticleOriginator.swift */,
+				F3A497C9247153EA009D08DF /* Carataker.swift */,
+			);
+			path = memento;
+			sourceTree = "<group>";
+		};
+		F3A497DF24717CB8009D08DF /* observer */ = {
+			isa = PBXGroup;
+			children = (
+				F3A497E024717CCA009D08DF /* TrafficLight.swift */,
+				F3A497E224717CFF009D08DF /* Observer.swift */,
+				F3A497E424717D26009D08DF /* Subject.swift */,
+				F3A497E624717D80009D08DF /* MessagePublisher.swift */,
+				F3A497E824717E2D009D08DF /* Car.swift */,
+				F3A497EA24717E9F009D08DF /* Pedestrian.swift */,
+			);
+			path = observer;
+			sourceTree = "<group>";
+		};
+		F3A497F72471A4C1009D08DF /* state */ = {
+			isa = PBXGroup;
+			children = (
+				F3A497F82471A4E6009D08DF /* MobileAlertStateContext.swift */,
+				F3A497FA2471A508009D08DF /* MobileAlertState.swift */,
+				F3A497FC2471A531009D08DF /* Sound.swift */,
+				F3A497FE2471A55E009D08DF /* Vibration.swift */,
+				F3A498002471A57D009D08DF /* Silent.swift */,
+			);
+			path = state;
+			sourceTree = "<group>";
+		};
 		F3A9D729246EECD700515150 /* builder */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +328,9 @@
 		F3A9D743246FD98900515150 /* behavioral */ = {
 			isa = PBXGroup;
 			children = (
+				F3A497F72471A4C1009D08DF /* state */,
+				F3A497DF24717CB8009D08DF /* observer */,
+				F3A497C424715305009D08DF /* memento */,
 				F3A497AB24705AF5009D08DF /* mediator */,
 				F3A49799247033EA009D08DF /* iterator */,
 				F3A4978524700906009D08DF /* interpreter2 */,
@@ -361,8 +427,10 @@
 				F3A9D74C246FDAEF00515150 /* BlackHandler.swift in Sources */,
 				F358374B246EB31100F136DC /* PaymentMethodClient.swift in Sources */,
 				F3583707246DC94400F136DC /* ViewController.swift in Sources */,
+				F3A497F92471A4E6009D08DF /* MobileAlertStateContext.swift in Sources */,
 				F3A9D730246EF83100515150 /* VisaCard.swift in Sources */,
 				F3A497872470091C009D08DF /* Expression.swift in Sources */,
+				F3A497FD2471A531009D08DF /* Sound.swift in Sources */,
 				F3A4978B247009BD009D08DF /* OrExpression.swift in Sources */,
 				F3566388246FEDF9007615DA /* CreditCardInvoker.swift in Sources */,
 				F3A9D74A246FDA9C00515150 /* PlatiniumHandler.swift in Sources */,
@@ -376,16 +444,27 @@
 				F3A497AF24705B31009D08DF /* Colleague.swift in Sources */,
 				F3A9D748246FDA2400515150 /* GoldHandler.swift in Sources */,
 				F3566380246FEC4A007615DA /* Command.swift in Sources */,
+				F3A497EB24717E9F009D08DF /* Pedestrian.swift in Sources */,
+				F3A498012471A57D009D08DF /* Silent.swift in Sources */,
+				F3A497CA247153EA009D08DF /* Carataker.swift in Sources */,
+				F3A497E124717CCA009D08DF /* TrafficLight.swift in Sources */,
 				F3A9D72E246EF76D00515150 /* PrototypeCard.swift in Sources */,
 				F358371F246DCA6900F136DC /* TypePayment.swift in Sources */,
+				F3A497FB2471A508009D08DF /* MobileAlertState.swift in Sources */,
 				F3566384246FED34007615DA /* CreditCardActivateCommand.swift in Sources */,
 				F3A4978D247009F6009D08DF /* TerminalExpression.swift in Sources */,
 				F358373D246EB05A00F136DC /* GooglePaymentAF.swift in Sources */,
+				F3A497FF2471A55E009D08DF /* Vibration.swift in Sources */,
+				F3A497E524717D26009D08DF /* Subject.swift in Sources */,
 				F358371D246DCA2200F136DC /* CardPayment.swift in Sources */,
 				F3A497B524705C2F009D08DF /* ConcreteMediator.swift in Sources */,
 				F358371B246DC9E300F136DC /* GooglePayment.swift in Sources */,
+				F3A497E924717E2D009D08DF /* Car.swift in Sources */,
 				F3583721246DCAA800F136DC /* PaymentFactory.swift in Sources */,
+				F3A497C82471535E009D08DF /* ArticleOriginator.swift in Sources */,
+				F3A497E724717D80009D08DF /* MessagePublisher.swift in Sources */,
 				F3A4979D24703437009D08DF /* CreditCardsCollection.swift in Sources */,
+				F3A497C624715326009D08DF /* ArticleMemento.swift in Sources */,
 				F358373F246EB09B00F136DC /* Method.swift in Sources */,
 				F3A4979F247034C5009D08DF /* CreditCardsIterator.swift in Sources */,
 				F358373B246EB02300F136DC /* CardPaymentAF.swift in Sources */,
@@ -400,6 +479,7 @@
 				F3583747246EB25800F136DC /* PaymentInAdvanceCardFactory.swift in Sources */,
 				F3A9D74E246FDB3300515150 /* BankHandler.swift in Sources */,
 				F3566386246FEDA7007615DA /* CreditCardDesactivateCommand.swift in Sources */,
+				F3A497E324717CFF009D08DF /* Observer.swift in Sources */,
 				F3A497B324705BFD009D08DF /* ConcreteColleague2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,8 +9,8 @@
 import Foundation
 
 class ConcreteMediator: Mediator {
-    var user1: ConcreteColleague1
-    var user2: ConcreteColleague2
+    var user1: ConcreteColleague1?
+    var user2: ConcreteColleague2?
     
     func setColleague1(colleague1: ConcreteColleague1){
         user1 = colleague1
