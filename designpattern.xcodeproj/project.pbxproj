@@ -63,6 +63,9 @@
 		F3A4980F2472ABE4009D08DF /* CapitalStrategyTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4980E2472ABE4009D08DF /* CapitalStrategyTextFormatter.swift */; };
 		F3A498112472AC1F009D08DF /* LowerStrategyTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A498102472AC1F009D08DF /* LowerStrategyTextFormatter.swift */; };
 		F3A498132472AC50009D08DF /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A498122472AC50009D08DF /* Context.swift */; };
+		F3A4981D2472E220009D08DF /* PaymentTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4981C2472E220009D08DF /* PaymentTemplate.swift */; };
+		F3A4981F2472E2A2009D08DF /* Paypal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4981E2472E2A2009D08DF /* Paypal.swift */; };
+		F3A498212472E2FD009D08DF /* Visa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A498202472E2FD009D08DF /* Visa.swift */; };
 		F3A9D72B246EECE800515150 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9D72A246EECE800515150 /* Card.swift */; };
 		F3A9D72E246EF76D00515150 /* PrototypeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9D72D246EF76D00515150 /* PrototypeCard.swift */; };
 		F3A9D730246EF83100515150 /* VisaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9D72F246EF83100515150 /* VisaCard.swift */; };
@@ -133,6 +136,9 @@
 		F3A4980E2472ABE4009D08DF /* CapitalStrategyTextFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalStrategyTextFormatter.swift; sourceTree = "<group>"; };
 		F3A498102472AC1F009D08DF /* LowerStrategyTextFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerStrategyTextFormatter.swift; sourceTree = "<group>"; };
 		F3A498122472AC50009D08DF /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		F3A4981C2472E220009D08DF /* PaymentTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTemplate.swift; sourceTree = "<group>"; };
+		F3A4981E2472E2A2009D08DF /* Paypal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paypal.swift; sourceTree = "<group>"; };
+		F3A498202472E2FD009D08DF /* Visa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visa.swift; sourceTree = "<group>"; };
 		F3A9D72A246EECE800515150 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		F3A9D72D246EF76D00515150 /* PrototypeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeCard.swift; sourceTree = "<group>"; };
 		F3A9D72F246EF83100515150 /* VisaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCard.swift; sourceTree = "<group>"; };
@@ -319,6 +325,16 @@
 			path = strategy;
 			sourceTree = "<group>";
 		};
+		F3A4981B2472E20D009D08DF /* templatemethod */ = {
+			isa = PBXGroup;
+			children = (
+				F3A4981C2472E220009D08DF /* PaymentTemplate.swift */,
+				F3A4981E2472E2A2009D08DF /* Paypal.swift */,
+				F3A498202472E2FD009D08DF /* Visa.swift */,
+			);
+			path = templatemethod;
+			sourceTree = "<group>";
+		};
 		F3A9D729246EECD700515150 /* builder */ = {
 			isa = PBXGroup;
 			children = (
@@ -347,6 +363,7 @@
 		F3A9D743246FD98900515150 /* behavioral */ = {
 			isa = PBXGroup;
 			children = (
+				F3A4981B2472E20D009D08DF /* templatemethod */,
 				F3A4980B2472AB90009D08DF /* strategy */,
 				F3A497F72471A4C1009D08DF /* state */,
 				F3A497DF24717CB8009D08DF /* observer */,
@@ -444,6 +461,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3566382246FEC6D007615DA /* CreditCardReceiver.swift in Sources */,
+				F3A498212472E2FD009D08DF /* Visa.swift in Sources */,
 				F3A9D74C246FDAEF00515150 /* BlackHandler.swift in Sources */,
 				F358374B246EB31100F136DC /* PaymentMethodClient.swift in Sources */,
 				F3583707246DC94400F136DC /* ViewController.swift in Sources */,
@@ -457,6 +475,7 @@
 				F3A9D72B246EECE800515150 /* Card.swift in Sources */,
 				F3A9D736246F0B3D00515150 /* CardSinglenton.swift in Sources */,
 				F3583739246EAFDD00F136DC /* PaymentAF.swift in Sources */,
+				F3A4981F2472E2A2009D08DF /* Paypal.swift in Sources */,
 				F3583703246DC94400F136DC /* AppDelegate.swift in Sources */,
 				F3583743246EB11600F136DC /* PaymentInAdvanceMethod.swift in Sources */,
 				F3A497B124705B84009D08DF /* ConcreteColleague1.swift in Sources */,
@@ -483,6 +502,7 @@
 				F3A498132472AC50009D08DF /* Context.swift in Sources */,
 				F3A497E924717E2D009D08DF /* Car.swift in Sources */,
 				F3583721246DCAA800F136DC /* PaymentFactory.swift in Sources */,
+				F3A4981D2472E220009D08DF /* PaymentTemplate.swift in Sources */,
 				F3A497C82471535E009D08DF /* ArticleOriginator.swift in Sources */,
 				F3A497E724717D80009D08DF /* MessagePublisher.swift in Sources */,
 				F3A4979D24703437009D08DF /* CreditCardsCollection.swift in Sources */,

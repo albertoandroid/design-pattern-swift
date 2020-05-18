@@ -27,8 +27,18 @@ class ViewController: UIViewController {
         //testMemento()
         //testObserver()
         //testState()
-        testStrategy()
+        //testStrategy()
+        testTemplateMethod()
     }
+    
+    func testTemplateMethod(){
+        let paymentMethodVisa = Visa()
+        paymentMethodVisa.makePayment()
+        
+        let paymentMethodPaypal = Paypal()
+        paymentMethodPaypal.makePayment()
+    }
+    
     
     func testStrategy(){
         let context = Context(strategyTextFormatter: CapitalStrategyTextFormatter())
