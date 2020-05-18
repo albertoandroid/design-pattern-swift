@@ -66,6 +66,12 @@
 		F3A4981D2472E220009D08DF /* PaymentTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4981C2472E220009D08DF /* PaymentTemplate.swift */; };
 		F3A4981F2472E2A2009D08DF /* Paypal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4981E2472E2A2009D08DF /* Paypal.swift */; };
 		F3A498212472E2FD009D08DF /* Visa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A498202472E2FD009D08DF /* Visa.swift */; };
+		F3A4983824730A43009D08DF /* CreditCardVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4983724730A43009D08DF /* CreditCardVisitor.swift */; };
+		F3A4983A24730A68009D08DF /* OfferElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4983924730A68009D08DF /* OfferElement.swift */; };
+		F3A4983C24730A98009D08DF /* GassolineOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4983B24730A98009D08DF /* GassolineOffer.swift */; };
+		F3A4983E24730AFF009D08DF /* FlightsOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4983D24730AFF009D08DF /* FlightsOffer.swift */; };
+		F3A4984024730B34009D08DF /* ClassicCreditCardVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4983F24730B34009D08DF /* ClassicCreditCardVisitor.swift */; };
+		F3A4984224730BBF009D08DF /* BlackCreditCardVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4984124730BBF009D08DF /* BlackCreditCardVisitor.swift */; };
 		F3A9D72B246EECE800515150 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9D72A246EECE800515150 /* Card.swift */; };
 		F3A9D72E246EF76D00515150 /* PrototypeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9D72D246EF76D00515150 /* PrototypeCard.swift */; };
 		F3A9D730246EF83100515150 /* VisaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9D72F246EF83100515150 /* VisaCard.swift */; };
@@ -139,6 +145,12 @@
 		F3A4981C2472E220009D08DF /* PaymentTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTemplate.swift; sourceTree = "<group>"; };
 		F3A4981E2472E2A2009D08DF /* Paypal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paypal.swift; sourceTree = "<group>"; };
 		F3A498202472E2FD009D08DF /* Visa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visa.swift; sourceTree = "<group>"; };
+		F3A4983724730A43009D08DF /* CreditCardVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardVisitor.swift; sourceTree = "<group>"; };
+		F3A4983924730A68009D08DF /* OfferElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferElement.swift; sourceTree = "<group>"; };
+		F3A4983B24730A98009D08DF /* GassolineOffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GassolineOffer.swift; sourceTree = "<group>"; };
+		F3A4983D24730AFF009D08DF /* FlightsOffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsOffer.swift; sourceTree = "<group>"; };
+		F3A4983F24730B34009D08DF /* ClassicCreditCardVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicCreditCardVisitor.swift; sourceTree = "<group>"; };
+		F3A4984124730BBF009D08DF /* BlackCreditCardVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackCreditCardVisitor.swift; sourceTree = "<group>"; };
 		F3A9D72A246EECE800515150 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		F3A9D72D246EF76D00515150 /* PrototypeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeCard.swift; sourceTree = "<group>"; };
 		F3A9D72F246EF83100515150 /* VisaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCard.swift; sourceTree = "<group>"; };
@@ -335,6 +347,19 @@
 			path = templatemethod;
 			sourceTree = "<group>";
 		};
+		F3A4983624730A34009D08DF /* visitor */ = {
+			isa = PBXGroup;
+			children = (
+				F3A4983724730A43009D08DF /* CreditCardVisitor.swift */,
+				F3A4983924730A68009D08DF /* OfferElement.swift */,
+				F3A4983B24730A98009D08DF /* GassolineOffer.swift */,
+				F3A4983D24730AFF009D08DF /* FlightsOffer.swift */,
+				F3A4983F24730B34009D08DF /* ClassicCreditCardVisitor.swift */,
+				F3A4984124730BBF009D08DF /* BlackCreditCardVisitor.swift */,
+			);
+			path = visitor;
+			sourceTree = "<group>";
+		};
 		F3A9D729246EECD700515150 /* builder */ = {
 			isa = PBXGroup;
 			children = (
@@ -363,6 +388,7 @@
 		F3A9D743246FD98900515150 /* behavioral */ = {
 			isa = PBXGroup;
 			children = (
+				F3A4983624730A34009D08DF /* visitor */,
 				F3A4981B2472E20D009D08DF /* templatemethod */,
 				F3A4980B2472AB90009D08DF /* strategy */,
 				F3A497F72471A4C1009D08DF /* state */,
@@ -479,6 +505,7 @@
 				F3583703246DC94400F136DC /* AppDelegate.swift in Sources */,
 				F3583743246EB11600F136DC /* PaymentInAdvanceMethod.swift in Sources */,
 				F3A497B124705B84009D08DF /* ConcreteColleague1.swift in Sources */,
+				F3A4983A24730A68009D08DF /* OfferElement.swift in Sources */,
 				F3A497AD24705B03009D08DF /* Mediator.swift in Sources */,
 				F3A497AF24705B31009D08DF /* Colleague.swift in Sources */,
 				F3A9D748246FDA2400515150 /* GoldHandler.swift in Sources */,
@@ -492,6 +519,7 @@
 				F358371F246DCA6900F136DC /* TypePayment.swift in Sources */,
 				F3A497FB2471A508009D08DF /* MobileAlertState.swift in Sources */,
 				F3566384246FED34007615DA /* CreditCardActivateCommand.swift in Sources */,
+				F3A4983E24730AFF009D08DF /* FlightsOffer.swift in Sources */,
 				F3A4978D247009F6009D08DF /* TerminalExpression.swift in Sources */,
 				F358373D246EB05A00F136DC /* GooglePaymentAF.swift in Sources */,
 				F3A497FF2471A55E009D08DF /* Vibration.swift in Sources */,
@@ -499,6 +527,8 @@
 				F358371D246DCA2200F136DC /* CardPayment.swift in Sources */,
 				F3A497B524705C2F009D08DF /* ConcreteMediator.swift in Sources */,
 				F358371B246DC9E300F136DC /* GooglePayment.swift in Sources */,
+				F3A4983824730A43009D08DF /* CreditCardVisitor.swift in Sources */,
+				F3A4984224730BBF009D08DF /* BlackCreditCardVisitor.swift in Sources */,
 				F3A498132472AC50009D08DF /* Context.swift in Sources */,
 				F3A497E924717E2D009D08DF /* Car.swift in Sources */,
 				F3583721246DCAA800F136DC /* PaymentFactory.swift in Sources */,
@@ -512,6 +542,7 @@
 				F3A4979F247034C5009D08DF /* CreditCardsIterator.swift in Sources */,
 				F358373B246EB02300F136DC /* CardPaymentAF.swift in Sources */,
 				F3A4980D2472ABAF009D08DF /* StrategyTextFormatter.swift in Sources */,
+				F3A4983C24730A98009D08DF /* GassolineOffer.swift in Sources */,
 				F3583741246EB0CB00F136DC /* MontlyMethod.swift in Sources */,
 				F3A4978924700945009D08DF /* AndExpression.swift in Sources */,
 				F3583745246EB20E00F136DC /* AbstractFactory.swift in Sources */,
@@ -522,6 +553,7 @@
 				F3583705246DC94400F136DC /* SceneDelegate.swift in Sources */,
 				F3583747246EB25800F136DC /* PaymentInAdvanceCardFactory.swift in Sources */,
 				F3A9D74E246FDB3300515150 /* BankHandler.swift in Sources */,
+				F3A4984024730B34009D08DF /* ClassicCreditCardVisitor.swift in Sources */,
 				F3566386246FEDA7007615DA /* CreditCardDesactivateCommand.swift in Sources */,
 				F3A497E324717CFF009D08DF /* Observer.swift in Sources */,
 				F3A497B324705BFD009D08DF /* ConcreteColleague2.swift in Sources */,

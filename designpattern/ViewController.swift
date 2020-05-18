@@ -28,8 +28,15 @@ class ViewController: UIViewController {
         //testObserver()
         //testState()
         //testStrategy()
-        testTemplateMethod()
+        //testTemplateMethod()
+        testVisitor()
     }
+    
+    func testVisitor(){
+        let oferta = GassolineOffer()
+        oferta.accept(visitor: BlackCreditCardVisitor())
+    }
+    
     
     func testTemplateMethod(){
         let paymentMethodVisa = Visa()
