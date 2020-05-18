@@ -26,7 +26,16 @@ class ViewController: UIViewController {
         //testMediator()
         //testMemento()
         //testObserver()
-        testState()
+        //testState()
+        testStrategy()
+    }
+    
+    func testStrategy(){
+        let context = Context(strategyTextFormatter: CapitalStrategyTextFormatter())
+        context.publishText(text: "este texto sera convertido a Mayusuculas a través de nuestro algoritmo")
+        
+        let contextLower = Context(strategyTextFormatter: LowerStrategyTextFormatter())
+        contextLower.publishText(text: "este texto sera convertido a Minusculas a través de nuestro algoritmo")
     }
     
     func testState(){
