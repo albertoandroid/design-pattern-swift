@@ -29,7 +29,90 @@ class ViewController: UIViewController {
         //testState()
         //testStrategy()
         //testTemplateMethod()
-        testVisitor()
+        //testVisitor()
+        //testAdapter()
+        //testBridge()
+        //testComposite()
+        //testDecorator()
+        //testFacade()
+        //testFlyweight()
+        testProxy()
+        
+    }
+    
+    func testProxy(){
+        let internet = ProxyInternet()
+        internet.connectTo(url: "udemy.com")
+        internet.connectTo(url: "twitter.com")
+    }
+    
+    
+    func testFlyweight(){
+        let enemyFactory = EnemyFactory()
+        for _ in 0...10{
+            let enemy = enemyFactory.getEnemy(type: getRandomEnemyType())
+            enemy.setWeapon(weapon: getRandonWeapon())
+            enemy.lifePoints()
+        }
+    }
+    
+    let enemyType = ["Private", "Detective"]
+    let weapon = ["Fusil", "Revolver", "Pistola" , "9mm"]
+    func getRandomEnemyType()->String{
+        let number = Int.random(in: 0 ..< enemyType.count)
+        return enemyType[number]
+    }
+    func getRandonWeapon()->String{
+        let number = Int.random(in: 0 ..< weapon.count)
+        return weapon[number]
+    }
+    
+    func testFacade(){
+        let facade = CreditMarketFacade()
+        facade.showCreditGold()
+        facade.showCreditSilver()
+        facade.showCreditBlack()
+    }
+    
+    func testDecorator(){
+        let blackInternationalPayment = InternationalPaymentDecorator(decorated: BlackCreditComponent())
+        print("-----Tarjeta Black Configurada-----")
+        blackInternationalPayment.showCredit()
+        
+        let goldSecurePayment = SecureDecorator(decorated: GoldCreditComponent())
+        print("-----Tarjeta Gold Configurada-----")
+        goldSecurePayment.showCredit()
+    }
+    
+    func testComposite(){
+        let savings = SavingsAccount()
+        let current = CurrentAccount()
+        let composite = AccountComposite()
+        
+        composite.addAccount(account: savings)
+        composite.addAccount(account: current)
+        
+        composite.showAccontName()
+    }
+    
+    func testBridge(){
+        var classic = ClassicCreditCard(creditCard: UnsecureCreditCard())
+        classic.makePayment()
+        
+        classic = ClassicCreditCard(creditCard: SecureCreditCard())
+        classic.makePayment()
+    }
+    
+    func testAdapter(){
+        let adaptee = OperationAdaptee(a: 3, b: 4)
+        if(adaptee.sum() == 7){
+            print("Ok int")
+        }
+        let target = OperationAdapter(adaptee: adaptee)
+        if(target.getSum == "7"){
+            print("OK String")
+        }
+        print(target.getSum)
     }
     
     func testVisitor(){
